@@ -1,0 +1,16 @@
+{
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src",
+    "build": "tsc && node dist"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "touch": "^3.1.0"
+  }
+}
